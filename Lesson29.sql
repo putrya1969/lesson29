@@ -141,3 +141,4 @@ VALUES (3, 1, GETDATE()),
 SELECT b.Name as 'Book title', a.Name as 'Author Name', h.StartDate as 'Issued', h.EndDate as 'Returned' FROM History h
 LEFT JOIN Books b ON h.BookId = b.Id
 LEFT JOIN Authors a ON b.AuthorId = a.Id
+--checked
